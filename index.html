@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DhaDhan REASTAURAN</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand text-warning " href="#"><img class="lg" src="./image/Clients2.png" alt=""> DhaDhan REASTAURAN</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu"> Our Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Friday</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button class="btn  ml-2 position-relative btn-warning" id="cart-button">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="badge badge-dark text-light" id="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!-- Home Section -->
+  <section id="home" class=" pt-4 pt-md-11  home ">
+    <div class="container py-5">
+      <div class="row align-items-center py-5">
+        <div class="col-12 col-md-7 col-lg-6 order-md-1 aos-init aos-animate" data-aos="fade-up">
+          <h1 class="display-5  text-md-start">
+             Test Delicious <br> <span class="text-warning " style="font-size: 2em; font-weight: 400;">Food</span></h1>
+          <p class="lead  text-md-start text-body-secondary mb-6 mb-lg-8">
+            Qancinta macaamiilkeen waxaa inoo dheer dhadhan aan laqiyaasi karin
+            weliba waa inoo sii dheer caraf iyo udgoon aadan maleysaneyn 
+          </p>
+          <div class=" text-md-start">
+            <a href="#" class="btn btn-warning shadow lift me-1">
+              Order Now <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-lg-6  order-md-2">
+          <img src="./image/Food-home2.png" alt="..." data-aos="fade-up" data-aos-delay="100">
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </section>
+
+  <!-- Gallery Section -->
+
+  <section id="menu" class="container py-5">
+    <h2 class="text-center text-warning  ">Our Menu</h2>
+    <p class="lead mb-5 text-center">Choose Our Best food With Free Delivery</p>
+    <div class="row">
+      <div class=" col-sm-6 col-md-4 col-lg-4 ">
+        <div class="card mb-4">
+          <img src="./image/sp.webp" class="card-img-top" alt="spaghetti">
+          <div class="card-body">
+            <h5 class="card-title">spaghetti</h5>
+            <p class="card-text">$10.99</p><span class=" mt-3">
+              <button class="btn btn-warning btn-block add-to-cart" data-name="spaghetti" data-price="10.99">Add to
+                Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-6 col-md-4 col-lg-4 ">
+        <div class="card mb-4">
+          <img src="./image/br.webp" class="card-img-top" alt="Baryani">
+          <div class="card-body">
+            <h5 class="card-title">Baryani</h5>
+            <p class="card-text">$13.99</p><span class=" mt-3">
+              <button class="btn btn-warning btn-block add-to-cart" data-name="Baryani" data-price="13.99">Add to
+                Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-6 col-md-4 col-lg-4 ">
+        <div class="card mb-4">
+          <img src="./image/khudar.webp" class="card-img-top" alt="Sabayad iyo suqaar">
+          <div class="card-body">
+            <h5 class="card-title">Sabayad iyo suqaar</h5>
+            <p class="card-text">$11.99</p><span class=" mt-3">
+              <button class="btn btn-warning btn-block add-to-cart" data-name="Sabayad iyo suqaar" data-price="11.99">Add to
+                Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-6 col-md-4 col-lg-4 ">
+        <div class="card mb-4">
+          <img src="./image/salad.png" class="card-img-top" alt="fish salad">
+          <div class="card-body">
+            <h5 class="card-title">fish salad</h5>
+            <p class="card-text">$9.99</p><span class=" mt-3">
+              <button class="btn btn-warning btn-block add-to-cart" data-name="fish salad" data-price="9.99">Add to
+                Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-6 col-md-4 col-lg-4 ">
+        <div class="card mb-4">
+          <img src="./image/dooro.png" class="card-img-top" alt="chicken">
+          <div class="card-body">
+            <h5 class="card-title">chicken</h5>
+            <p class="card-text">$6.99</p><span class=" mt-3">
+              <button class="btn btn-warning btn-block add-to-cart" data-name="chicken" data-price="6.99">Add to
+                Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-6 col-md-4 col-lg-4 ">
+        <div class="card mb-4">
+          <img src="./image/home.png" class="card-img-top" alt="Fish Barger">
+          <div class="card-body">
+            <h5 class="card-title">Fish Barger</h5>
+            <p class="card-text">$7.99</p><span class=" mt-3">
+              <button class="btn btn-warning btn-block add-to-cart" data-name="Fish Barger" data-price="7.99">Add to
+                Cart</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Add more product cards here -->
+    </div>
+  </section>
+  <!-- Subscriber Section -->
+  <section id="services"  class=" update py-5 ">
+    <h2 class="text-center mb-2 text-primary  ">Subscribe Latest Update</h2>
+    <p class="lead text-center mb-5">We are Your Freind</p>
+    <div class="form-group w-50  mx-auto">
+      <input type="email" class=" w-100" placeholder="Enter Your Email">
+    </div>
+  </section>
+
+  <!-- Deal Section -->
+  <section class=" pt-4 pt-md-11  home deal ">
+    <div class="container py-5">
+      <div class="row align-items-center py-5">
+        <div class="col-12 col-md-7 col-lg-6 order-md-1 aos-init aos-animate" data-aos="fade-up">
+          <h1 class="text-center text-md-start text-primary">
+            Friday Of The week
+          </h1>
+          <p class=" lead text-center text-md-start text-body-secondary mb-6 mb-lg-8">
+            Upto 30% off
+          </p>
+          <p class="text-center text-md-start text-body-secondary mb-6 mb-lg-8">
+            Welcome To Another Time We Are On The Way
+          </p>
+          <div class="text-center text-md-start">
+            <a href="#" class="btn btn-primary shadow lift me-1">
+              Order Now <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6  order-md-2">
+          <img src="./image/rf.png" alt="..." data-aos="fade-up" data-aos-delay="100">
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </section>
+  <!-- Reviews Section -->
+  <section id="review" class=" py-5">
+    <h2 class="text-center text-warning mb-4">Clients Says</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <img src="./image/client.png" alt="">
+          <h2 class="">Samiir suldan</h2>
+          <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque rerum velit aliquid
+            cum veniam totam dolorum sapiente minima temporibus iste.</p>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <img src="./image/adan.jpg" alt="">
+          <h2 class="">Junior Alberto </h2>
+          <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque rerum velit aliquid
+            cum veniam totam dolorum sapiente minima temporibus iste.</p>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <img src="./image/hero.png" alt="">
+          <h2 class="">Alves Costa</h2>
+          <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque rerum velit aliquid
+            cum veniam totam dolorum sapiente minima temporibus iste.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class=" py-5">
+    <h2 class="text-center text-warning mb-4">About</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <h3>Welcome To Our Website</h3>
+          <p class="text-black">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque rerum velit aliquid
+            cum veniam totam dolorum sapiente minima temporibus isteLorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque rerum velit aliquid
+            cum veniam totam dolorum sapiente minima temporibus istee
+          </p>
+          <button class="btn btn-outline-warning ml-2 position-relative">
+            Read More
+          </button>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <img src="./image/half-chicken-chips.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container py-5">
+    <h2 class="text-center text-warning mb-4">Contact Us</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 bg-dark form ">
+          <form action="" class="mt-5">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label for="" style="color: orange;">First Name</label>
+                  <input type="text" placeholder="Enter First Name " class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="" style="color: orange;">Last Name</label>
+                  <input type="text" placeholder="Enter Last Name " class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="" style="color: orange;">Email</label>
+                  <input type="Email" placeholder="Enter Your Email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="" style="color: orange;">Write Your what you think</label>
+                  <textarea name="" class="form-control" id=""></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-12 col-lg-6 bg-light">
+          <h2 class="text-center text-warning mt-5">Reach Us</h2>
+          <table class="borderless w-100 table-responsive p-5 m-5 ">
+            <tr class="mb-3 ">
+              <td>email:</td>
+              <td>@gmail.com</td>
+            </tr>DhaDhan
+            <tr>
+              <td>Phone:</td>
+              <td>+252 617453187/613934468/617508278</td>
+            </tr>
+            <tr>
+              <td>Address:</td>
+              <td>Manaboliyo/Bondhere/Mugadishu/Somalia</td>
+            </tr>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div id="cart">
+    <h4 class="mb-3">Add Cart</h4>
+    <ul id="cart-items" class="list-group">
+    </ul>
+    <div id="total" class="font-weight-bold mt-3">Total: $0.00</div>
+  </div>
+
+  <section id="footer" class=" footer pt-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-3 col-sm-12 ">
+          <h5 class="text-uppercase text-warning">Food</h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque rerum velit aliquid
+            cum veniam totam dolorum sapiente minima temporibus isteLorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque rerum velit aliquid
+            cum veniam totam dolorum sapiente minima temporibus iste
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-12 products">
+          <h5 class="text-uppercase text-warning">Products</h5>
+          <p><a href="">Pizza</a></p>
+          <p><a href="">Fish Barger</a></p>
+          <p><a href="">Special Coffe</a></p>
+          <p><a href="">Ice Cream </a></p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-12 usefull">
+          <h5 class="text-uppercase text-warning ">Usefull Links</h5>
+          <p><a href="#home">Home</a></p>
+          <p><a href="#Books">Our Menu</a></p>
+          <p><a href="#Arivals">Services</a></p>
+          <p><a href="#about">About Us</a></p>
+          <p><a href="#contact">Contact Us</a></p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-12">
+          <h5 class="text-uppercase text-warning">CONTACTS</h5>
+          <p><i class="fa fa-home mr-3"></i>Boondhere Muqadishu Somalia</p>
+          <p><i class="fa fa-envelope mr-3"></i>DhaDhan@gamil.com</p>
+          <p><i class="fa fa-phone mr-3"></i>252 )617453187/617453187</p>
+          <p><i class="fa fa-print mr-3"></i>AU 030 1025</p>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col-12 text-center mt-5">
+           <p><a class="text-white text-center " href="">&copy; 2025 All right Reserved By <b class="text-warning">Mohamed Omar</b></a></p>
+        </div>
+        <!-- <div class="col-12">
+         <div class="text-center ">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;" ><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;" ><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;" ><i class="fa fa-linkedin-in" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+         </div>
+        </div> -->
+       </div>
+     
+    </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./app.js"></script>
+
+</body>
+
+</html>
