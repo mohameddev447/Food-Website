@@ -1,0 +1,126 @@
+/* Custom CSS */
+
+.navbar{
+    background: darkblue !important;
+}
+.nav-link{
+  color: orange !important;
+  font-weight: bold;
+}
+.nav-link:hover{
+    color: rgb(57, 175, 239) !important;
+}
+
+.home img{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+.home{
+    background-color: rgb(255, 249, 249);
+}
+
+.home  h1{
+  color: darkblue;
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+
+#menu img{
+  height: 230px;
+}
+
+.update{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/ab.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.lg{
+  width: 50px;
+ 
+}
+
+
+.update input{
+  border-radius: 5px;
+  border:1px solid darkcyan;
+  padding: 8px 12px;
+  outline: none;
+}
+    
+#cart {
+    display: none;
+    position: fixed;
+    top: 10%;
+    right: 10px;
+    width: 400px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  #cart.active {
+    display: block;
+  }
+  #cart-button .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+  }
+
+  .deal{
+    background-color: rgb(242,242,242);
+  }
+
+  .deal img{
+    width: 450px;
+    margin-top: 30px;
+  }
+
+.new{
+    border: 1px solid rgb(238, 236, 236) !important;
+  }
+
+  #review img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+   
+  }
+
+  .products p a{
+      color: white;
+  }
+
+  .usefull p a{
+    color: white;
+  }
+
+  #review p{
+    color: gray;
+  }
+#footer{
+  background-color: darkblue !important;
+}
+  .form{
+    background-color: darkblue !important;
+  }
+
+#about img{
+    width: 320px;
+    display: block;
+    margin: auto;
+    padding: 2%;
+}
+
+
+@media (max-width:750px){
+   .card img{
+    height: 300px;
+   }
+}
